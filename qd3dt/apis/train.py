@@ -4,8 +4,8 @@ import re
 from collections import OrderedDict
 
 import torch
-from mmcv.runner import Runner, DistSamplerSeedHook, obj_from_dict
-from mmcv.parallel import MMDataParallel, MMDistributedDataParallel
+from ../../../mmcv.runner import Runner, DistSamplerSeedHook, obj_from_dict
+from ../../../mmcv.parallel import MMDataParallel, MMDistributedDataParallel
 
 from qd3dt import datasets
 from qd3dt.core import (DistOptimizerHook, DistEvalmAPHook,
