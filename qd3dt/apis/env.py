@@ -7,7 +7,7 @@ import numpy as np
 import torch
 import torch.distributed as dist
 import torch.multiprocessing as mp
-from mmcv.runner import get_dist_info
+from ../../../mmcv.runner import get_dist_info
 
 
 def init_dist(launcher, backend='nccl', **kwargs):
