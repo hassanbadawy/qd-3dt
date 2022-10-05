@@ -1,10 +1,10 @@
 import warnings
 
-import mmcv
+import ../../../mmcv
 import numpy as np
 import pycocotools.mask as maskUtils
 import torch
-from mmcv.runner import load_checkpoint
+from ../../../mmcv.runner import load_checkpoint
 
 from qd3dt.core import get_classes
 from qd3dt.datasets import to_tensor
